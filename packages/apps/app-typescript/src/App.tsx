@@ -3,7 +3,7 @@ import ReactLogo from './ReactLogo.svg';
 import YarnCat from './YarnCat.svg';
 import './App.css';
 
-import { CompOne, CompTwo } from '@project/components-typescript';
+import { CompOne, CompTwo, Button } from '@project/components-typescript';
 
 const App: React.FC = () => {
   return (
@@ -32,6 +32,7 @@ const App: React.FC = () => {
         <div className="components">
           <CompOne />
           <CompTwo />
+          <Button type="primary">TEST</Button>
         </div>
       </header>
     </div>

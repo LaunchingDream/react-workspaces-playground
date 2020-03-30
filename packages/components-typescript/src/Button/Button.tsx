@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 import { ButtonProps } from 'antd/lib/button/button';
 
-import './styles.scss';
+// import './styles.scss';
 
 interface ButtonInterface extends ButtonProps {
   option?: 'round' | 'square';
